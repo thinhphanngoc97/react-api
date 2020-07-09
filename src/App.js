@@ -113,10 +113,10 @@ class App extends Component {
             this.props.store.total !==0 &&
             (
               this.props.store.countFail === 0 
-              ? <h5 style={{position: "fixed", right: "20px", bottom: "20px"}}>
+              ? <h5 style={{position: "fixed", right: "20px", bottom: "50px"}}>
                   {this.props.store.countSuccess}/{this.props.store.total} Success
                 </h5>
-              : <h5 style={{position: "fixed", right: "20px", bottom: "20px"}}>
+              : <h5 style={{position: "fixed", right: "20px", bottom: "50px"}}>
                   {this.props.store.countSuccess}/{this.props.store.total} Success and {this.props.store.countFail}/{this.props.store.total} Fail
                 </h5>
             )
